@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83EFA226-F81B-4028-ACEF-E5B7D21788D6}|Application\\WebApi.csproj|c:\\git\\banco-carrefour\\api\\bancocarrefour\\application\\controllers\\cashentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EFA226-F81B-4028-ACEF-E5B7D21788D6}|Application\\WebApi.csproj|solutionrelative:application\\controllers\\cashentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4175D21-2D78-4871-A692-C96C4A8DAE07}|Data\\Data.csproj|c:\\git\\banco-carrefour\\api\\bancocarrefour\\data\\repositories\\cashentryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4175D21-2D78-4871-A692-C96C4A8DAE07}|Data\\Data.csproj|solutionrelative:data\\repositories\\cashentryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D8A7E7-8B01-46B1-8F4D-29A0382BCBD3}|IoC\\IoC.csproj|c:\\git\\banco-carrefour\\api\\bancocarrefour\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D8A7E7-8B01-46B1-8F4D-29A0382BCBD3}|IoC\\IoC.csproj|solutionrelative:ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC01336-95EA-4036-A5C9-8BD6CD9329E4}|services\\Services.csproj|c:\\git\\banco-carrefour\\api\\bancocarrefour\\services\\interfaces\\icashentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC01336-95EA-4036-A5C9-8BD6CD9329E4}|services\\Services.csproj|solutionrelative:services\\interfaces\\icashentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB38AC1D-C254-4BBC-BE0A-7AEB5D9C8E61}|Domain\\Domain.csproj|c:\\git\\banco-carrefour\\api\\bancocarrefour\\domain\\models\\pagnatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB38AC1D-C254-4BBC-BE0A-7AEB5D9C8E61}|Domain\\Domain.csproj|solutionrelative:domain\\models\\pagnatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC01336-95EA-4036-A5C9-8BD6CD9329E4}|services\\Services.csproj|c:\\git\\banco-carrefour\\api\\bancocarrefour\\services\\services\\cashentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC01336-95EA-4036-A5C9-8BD6CD9329E4}|services\\Services.csproj|solutionrelative:services\\services\\cashentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CashEntryRepository.cs",
+              "DocumentMoniker": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\Data\\Repositories\\CashEntryRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\CashEntryRepository.cs",
+              "ToolTip": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\Data\\Repositories\\CashEntryRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\CashEntryRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAnwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:30:33.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "IoC\\DependencyInjection.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:05:29.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICashEntryService.cs",
+              "DocumentMoniker": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\services\\Interfaces\\ICashEntryService.cs",
+              "RelativeDocumentMoniker": "services\\Interfaces\\ICashEntryService.cs",
+              "ToolTip": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\services\\Interfaces\\ICashEntryService.cs",
+              "RelativeToolTip": "services\\Interfaces\\ICashEntryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:05:02.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagnatedResult.cs",
+              "DocumentMoniker": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\Domain\\Models\\PagnatedResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\PagnatedResult.cs",
+              "ToolTip": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\Domain\\Models\\PagnatedResult.cs",
+              "RelativeToolTip": "Domain\\Models\\PagnatedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:22:32.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CashEntryService.cs",
+              "DocumentMoniker": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\services\\Services\\CashEntryService.cs",
+              "RelativeDocumentMoniker": "services\\Services\\CashEntryService.cs",
+              "ToolTip": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\services\\Services\\CashEntryService.cs",
+              "RelativeToolTip": "services\\Services\\CashEntryService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAtwCMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:22:02.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CashEntryController.cs",
+              "DocumentMoniker": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\Application\\Controllers\\CashEntryController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\CashEntryController.cs",
+              "ToolTip": "C:\\GIT\\banco-carrefour\\api\\BancoCarrefour\\Application\\Controllers\\CashEntryController.cs",
+              "RelativeToolTip": "Application\\Controllers\\CashEntryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:21:56.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1651,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
