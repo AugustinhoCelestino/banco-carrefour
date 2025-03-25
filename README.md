@@ -36,4 +36,28 @@ Antes de começar, certifique-se de que você tenha as ferramentas abaixo instal
 1. Clone o repositório:  
    ```bash  
    git clone https://github.com/AugustinhoCelestino/banco-carrefour.git
-   cd banco-carrefour 
+   cd banco-carrefour
+    ```
+---
+### Estrutura do Projeto
+O projeto está estruturado da seguinte forma:
+
+   ```scss  
+      ├── api/BancoCarrefour  
+      │   ├── Application          // Endpoints e serviços expostos
+      │   ├── Data                 // 
+      │   ├── Domain               // 
+      │   ├── IoC                  //   
+      │   └── Services             // Serviços e regras de Negocios
+      │   └── BancoCarrefour.sln   // Solução do projeto  
+      ├── README.md                // Documentação do projeto  
+      └── ...
+   ```  
+---
+
+### Tecnologias Utilizadas
+- C#
+- ASP.NET Core para construção de APIs
+- xUnit ou NUnit para testes automatizados
+- Entity Framework Core para ORM (caso aplicável)
+- Swagger para documentação de API (caso tenha uma API)
