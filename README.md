@@ -39,18 +39,45 @@ Antes de começar, certifique-se de que você tenha as ferramentas abaixo instal
    cd banco-carrefour
     ```
 ---
+2. Abrir a solução BancoCarrefour.sln no VisualStudio  
+   ```bash  
+   BancoCarrefour.sln
+    ```
+---
+3. Compilar a solução  
+   ```bash  
+   Crtl + Shift + B
+   ou apertar o botão direiro e ir em "Compilar Solução"
+    ```
+---
+4. Colocar o projeto WebAPI como "Projeto de Inicialização"  
+   ```bash  
+   Apertar o botão direiro e ir em "Configuarar Projeto de Inicialização"
+   Selecionar o projeto "WebAPi".
+    ```
+---
+5. Selecionar Http para execução e executar o prejeto
+   ```bash  
+   Certifique que o projeto está com http selecionado, e clique em executar ou aperte F5.
+
+   O Swagger UI ira abrir em : http://localhost:5150/swagger/index.html
+    ```
+---
+
+
+
 ### Estrutura do Projeto
-O projeto está estruturado da seguinte forma:
+A solução está estruturada da seguinte forma:
 
    ```scss  
-      ├── api/BancoCarrefour  
-      │   ├── Application          // Endpoints e serviços expostos
-      │   ├── Data                 // 
-      │   ├── Domain               // 
-      │   ├── IoC                  //   
-      │   └── Services             // Serviços e regras de Negocios
-      │   └── BancoCarrefour.sln   // Solução do projeto  
-      ├── README.md                // Documentação do projeto  
+      ├── BancoCarrefour  
+      │   ├── 1 - Application      // Endpoints e Controllers
+      │   ├── 2 - Domain
+      │   │   ├── 2.1 - Domain     // Entidades, Enumeradores, Interfaces, Mappers e Utils        
+      │   │   └── 2.2 - Services   // Interfaces e Serviços     
+      │   ├── 3 - Infrastructure 
+      │   │   ├── 3.1 Data          // Contextos, Mapping, Migrationns e Repositórios
+      │   │   ├── 3.2 IoC           // Innjeção de dependencias
       └── ...
    ```  
 ---
@@ -58,6 +85,6 @@ O projeto está estruturado da seguinte forma:
 ### Tecnologias Utilizadas
 - C#
 - ASP.NET Core para construção de APIs
-- xUnit ou NUnit para testes automatizados
-- Entity Framework Core para ORM (caso aplicável)
-- Swagger para documentação de API (caso tenha uma API)
+- xUnit para testes automatizados
+- Entity Framework Core
+- Swagger para documentação de API 
