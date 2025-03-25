@@ -71,13 +71,13 @@ A solução está estruturada da seguinte forma:
 
    ```scss  
       ├── BancoCarrefour  
-      │   ├── 1 Application      // Endpoints e Controllers
-      │   ├── 2 Domain
+      │   ├── 1 - Application      // Endpoints e Controllers
+      │   ├── 2 - Domain
       │   │   ├── 2.1 - Domain     // Entidades, Enumeradores, Interfaces, Mappers e Utils        
       │   │   └── 2.2 - Services   // Interfaces e Serviços     
-      │   ├── 3 Infrastructure 
-      │   │   ├── 3.1 Data          // Contextos, Mapping, Migrationns e Repositórios
-      │   │   ├── 3.2 IoC           // Innjeção de dependencias
+      │   ├── 3 - Infrastructure 
+      │   │   ├── 3.1 - Data          // Contextos, Mapping, Migrationns e Repositórios
+      │   │   ├── 3.2 - IoC           // Innjeção de dependencias
       └── ...
    ```  
 ---
